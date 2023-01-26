@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box;
+}
+html {
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+  }
+  /*
+p{
+    margin-top: -5px;
+    margin-left: -100px;
+    margin-right: -70px;
+    text-align:  center;
+    font-size: 28px;
+    padding-top: 10px;
+   padding-left: auto;
+}
+*/
+p{
+ 
+  font-size: 28px;
+  margin-left: 165px;
+  margin-top: -95px;
+}
+/*p:hover {
+    color: orange;
+  }
+*/
+
+#container{
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.box{
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    padding: 25px;
+    width: 900px;
+    height: 500px;
+    background: white;
+    
+}
+
+/*
+
+img{
+    margin: 6.5px /*tes images auront une marge de 5px partout autour d'elle
+    }
+*/
+/* Important stuff for this demo. */
+.part_one{
+  display: flex;
+}
+.pictures_user {
+  flex: 10%;
+  padding: 5px;
+}
+.text {
+  display: inline-flex;
+  flex: 90%;
+  padding: 5px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    display: inline;
+   
+
+  }
+  
+
+  .pics_in_a_row {
+    display: inline-flex;
+    flex: 90%;
+    padding-left: 165px;
+   
+  }
+
+  /*
+  .img1 { flex: 0.305; }
+  .img2 { flex: 0.305; }
+  .img3 { flex: 0.305; }
+
+  
+  
+  
+  /* Aaaand just some general styling. 
+  
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+
+  
+  .pics_in_a_row {
+    margin: 1px 0;
+
+  }
+  
+  .pics_in_a_row > div:not(:last-child) {
+    margin-right: 2%;
+  }
+  */
+  #main-footer {
+    font-family: "Courier New", Courier,
+    monospace;
+    color: rgb(13, 12, 12);
+    margin-top: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  #main-footer h6{
+    text-align: center;
+    font-size: 12px;
+  }
